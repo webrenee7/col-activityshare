@@ -1,9 +1,13 @@
 ## 使用方法
 - 加入以下代码
 ```html
+<!--分享标题-->
 <input class="actitle" type="hidden" value="分享标题" />
+<!--分享描述-->
 <input class="actsummary" type="hidden" value="分享描述！" />
+<!--分享图标-->
 <input class="actlink" type="hidden" value="http://image.kuaikuaidai.com/h5/static/images/lendimgwx.png" />
+<!--分享链接地址-->
 <input class="linkpage" type="hidden" value="" />
 <input id="appId" name="appId" type="hidden" value="${appId}"/>
 <input id="timestamp" name="timestamp" type="hidden" value="${timestamp}"/>
