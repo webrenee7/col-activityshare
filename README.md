@@ -9,6 +9,7 @@
 <input class="actlink" type="hidden" value="http://image.kuaikuaidai.com/h5/static/images/lendimgwx.png" />
 <!--分享链接地址-->
 <input class="linkpage" type="hidden" value="" />
+<!--以下隐藏域的值都是从后台代入的-->
 <input id="appId" name="appId" type="hidden" value="${appId}"/>
 <input id="timestamp" name="timestamp" type="hidden" value="${timestamp}"/>
 <input id="nonceStr" name="nonceStr" type="hidden" value="${nonceStr}"/>
