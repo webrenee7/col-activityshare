@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>活动分享</title>
-    <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <style>
-        *{ margin:0; padding:0;}
-        html,body{ height: 100%;}
-        div{ height:100%; padding-top: 100px; text-align: center; font-size: 30px; background: darkred; color: #fff; font-weight: bold;}
-    </style>
-</head>
-<body>
-<div>活动分享页面</div>
+## 使用方法
+- 加入以下代码
+```html
 <input class="actitle" type="hidden" value="分享标题" />
 <input class="actsummary" type="hidden" value="分享描述！" />
 <input class="actlink" type="hidden" value="http://image.kuaikuaidai.com/h5/static/images/lendimgwx.png" />
@@ -21,8 +9,18 @@
 <input id="timestamp" name="timestamp" type="hidden" value="${timestamp}"/>
 <input id="nonceStr" name="nonceStr" type="hidden" value="${nonceStr}"/>
 <input id="signature" name="signature" type="hidden" value="${signature}"/>
+```
+
+- 引入js
+```javascript
 <script src="../projectusual/static/js/activityshare.js"></script>
 <script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
 <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/qzact/common/share/share.js"></script>
-</body>
-</html>
+```
+
+## 微信分享敏感词汇
+目前发现的：
+红包、现金、现金红包、福利
+
+之后再做补充
+
